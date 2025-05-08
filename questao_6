@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro comprimento
+		inteiro largura 
+		
+		escreva("Me de o comprimento do seu campo. \n")
+		leia(comprimento)
+		escreva("Agora, me de a largurar do seu campo. \n")
+		leia(largura)
+
+		inteiro area = ((largura / 2) * 2 * 3.14)
+
+		escreva("A área do seu campo é: ", area, "\n" )
+		escreva("Já o dobro da área do seu campo é: ", area * 2, "\n")
+		escreva("Por fim, em centímetros, o dobro da sua área em centímetros é:", area * 2 * 100)
+	}
+}
