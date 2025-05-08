@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+	     inteiro metros
+	     
+		escreva("Me de certa quantidade de metros que te darei em centímetro. \n ")
+		leia(metros)
+
+		escreva("Em centímetros, ", metros, " metros, fica: ", metros * 100, " centímetros.")
+
+	}
+}
