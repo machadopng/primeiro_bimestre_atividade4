@@ -1,0 +1,9 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	     inteiro preco_pagar = 26.9 + 34.1 + 29.9 + 26.9 + 50 + 26.9
+		escreva("O total da compra dos 8 livros é ", preco_pagar, " reais.")
+	}
+}
