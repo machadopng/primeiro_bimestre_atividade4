@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	     inteiro primeiro_bimestre, segundo_bimestre, terceiro_bimestre, quarto_bimestre
+	     
+	     escreva("Me de suas notas dos 4 bimestres, te darei sua média final. \n")
+	     leia(primeiro_bimestre)
+	     leia(segundo_bimestre)
+	     leia(terceiro_bimestre)
+	     leia(quarto_bimestre)
+
+	     inteiro media = (primeiro_bimestre + segundo_bimestre + terceiro_bimestre + quarto_bimestre)/4
+
+	     escreva("Sua média deu: ", media)
+	}
+}
