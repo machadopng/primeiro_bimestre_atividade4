@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro dolar = 5.75
+		inteiro preco_ps5_dolar = 1300
+		inteiro seu_dinheiro
+
+		escreva("Quantos reias você tem atualmente? \n")
+		leia(seu_dinheiro)
+
+		escreva("Faltam ", 1300 - (seu_dinheiro / dolar), " dólares para você comprar um ps5. \nOu também ", preco_ps5_dolar * dolar - seu_dinheiro, " reais. \nCom essa quantidade de dinheiro você poderia comprar ", seu_dinheiro / 50, " livros da Ordem da Fênix do Harry Potter.") 
+		
+
+		
+	}
+}
